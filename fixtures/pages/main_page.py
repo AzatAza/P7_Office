@@ -1,6 +1,6 @@
 from fixtures.locators.locators import LoginLocators
 from fixtures.models.data import Data
-from fixtures.pages.base_page import fill_element, click_element, open_auth_page, get_text, close_browser, get_list
+from fixtures.pages.base_page import fill_element, click_element, open_auth_page, close_browser, get_list
 
 
 def auth(is_submit: bool = True):
