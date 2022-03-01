@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 options = Options()
-options.headless = False
+options.headless = True
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 url = 'https://r7-office.ru/request_personal'
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
