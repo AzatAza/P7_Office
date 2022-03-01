@@ -11,7 +11,10 @@ def get_os():
     auth()
     os = get_list_os()
     quit_browser()
-    print(os)
+    if not os:
+        print("There aren't available OS for download or the CAPTCHA was not passed")
+    else:
+        print(os)
 
 
 get_os()
