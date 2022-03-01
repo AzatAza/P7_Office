@@ -15,6 +15,7 @@ Run in terminal and check result
 ```
 pip install -r requirements.txt
 python -m test.py
+If you get an empty list, so CAPTCHA is activated.
 ```
 
 pre-commit https://pre-commit.com
